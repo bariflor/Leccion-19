@@ -1,0 +1,23 @@
+.animal{
+        width: 400px;
+        height: 300px;
+        margin:0;
+}
+
+.blanco-negro{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.invertir-colores{
+    -webkit-filter: invert(.8);
+    filter: invert(.8);
+}
+.sepia{
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+p {
+  border: black 20px solid;
+  border-image-source: url("burbujas.png");
+  text-align: justify;
+}
